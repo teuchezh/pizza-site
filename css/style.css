@@ -34,58 +34,73 @@ body
 {
     margin: 0 auto;
     width: 100%;
-    max-width: 960px;
-    padding: 0 15px;
-    } 
+    max-width: auto;
+    height: 512px;
+    padding: 0px;
+    background-image: url(../img/bg_4.jpg);
+    color: white;
+} 
 .services
 {
   margin: 0 auto;
   width: 100%;
-  max-width: 960px;
-  padding: 0 15px;
+  max-width: auto;
+  height: 512px;
+  padding: 0px;
+  background-image: url(../img/food.png);
 }
+
+.services h2
+{
+  text-align: center;
+  padding-top: 3%;
+}
+
 .padval
 {
   margin: 0 auto;
   width: 100%;
-  max-width: 960px;
+  max-width: auto;
   padding: 0 15px;
 }
-.padval img
-{
-  align-items: 50%;
-}
+
 .owl-carousel
 {
-  background-image: url(img/bg_1.jpg);
-  height: 420px;
+  background-image: url(../img/bg_1.jpg);
+  height: 720px;
 }
 .item img
 {
-  max-width: 512px;
-  max-height: 512px;
+  max-width: 800px;
+  max-height: 800px;
   padding-left: 15%;
   padding-top: 2%;
   
 }
 .item
 {
+  height: 720px;
   background-color: rgba(63, 63, 63, 0.315);
+  color: white;
+  text-align: right;
 }
 .ctext
 {
+  height: 720px;
+  font-size: 25px;
   text-align: right;
+  padding-right: 35%;
 }
 
 .number
 {
-  text-align: left;
+  padding-top: 5%;
 }
 .adress
 {
-  text-align: center;
+
 }
 .time
 {
-  text-align: right;
+
 }
