@@ -1,0 +1,91 @@
+body
+{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.logo img
+{
+  margin-top: 5px;
+  margin-right: 50%;
+}
+.info 
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+    } 
+.services
+{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  padding: 0 15px;
+}
+.padval
+{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  padding: 0 15px;
+}
+.padval img
+{
+  align-items: 50%;
+}
+.owl-carousel
+{
+  background-image: url(img/bg_1.jpg);
+  height: 420px;
+}
+.item img
+{
+  max-width: 512px;
+  max-height: 512px;
+  padding-left: 15%;
+  padding-top: 2%;
+  
+}
+.item
+{
+  background-color: rgba(63, 63, 63, 0.315);
+}
+.ctext
+{
+  text-align: right;
+}
+
+.number
+{
+  text-align: left;
+}
+.adress
+{
+  text-align: center;
+}
+.time
+{
+  text-align: right;
+}
