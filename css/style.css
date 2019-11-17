@@ -1,6 +1,11 @@
+/*Home*/
 body
 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Pacifico', 'Cursive';
+}
+footer
+{
+
 }
 
 @media screen and (max-width: 600px) {
@@ -30,17 +35,47 @@ body
   margin-top: 5px;
   margin-right: 50%;
 }
-.info 
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+}
+.info
 {
     margin: 0 auto;
     width: 100%;
     max-width: auto;
-    height: 512px;
+    height: 256px;
     padding: 0px;
     background-image: url(../img/bg_4.jpg);
     color: white;
-} 
-.services
+}
+.info h2
+{
+  text-align: center;
+  padding-top: 3%;
+}
+.info .column
+{
+  font-size: 14px;
+  text-align: center;
+}
+.info .column h2
+{
+  font-size: 18px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px;
+}
+.info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.services /*Услуги*/
 {
   margin: 0 auto;
   width: 100%;
@@ -49,11 +84,20 @@ body
   padding: 0px;
   background-image: url(../img/food.png);
 }
-
-.services h2
+.services h2 /*Заголовок услуг*/
 {
   text-align: center;
   padding-top: 3%;
+}
+.services .column h2/*Текст*/
+{
+  text-align: center;
+  font-size: 18px;
+}
+.services .column /*Текст*/
+{
+  text-align: center;
+  font-size: 12px;
 }
 
 .padval
@@ -63,7 +107,6 @@ body
   max-width: auto;
   padding: 0 15px;
 }
-
 .owl-carousel
 {
   background-image: url(../img/bg_1.jpg);
@@ -91,16 +134,51 @@ body
   text-align: right;
   padding-right: 35%;
 }
+/*About*/
 
-.number
+/*Menu*/
+.menubod
 {
+  background-image: url(../img/bg_1.jpg);
+}
+.ourmenuhead
+{
+  max-height: 320px;
+  height: 128px;
+  width: auto;
+  background-image: url(../img/food.png);
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ourmenuhead h2
+{
+  padding-top: 3%;
+  text-align: center;
+}
+.ourmenuhead p
+{
+  text-align: center;
+}
+.card-deck
+{
+  padding-top: 5px;
+}
+.card-img-top
+{
+  max-height: 365px;
+  justify-items: stretch;
+}
+.drinks
+{
+  background-image: url(../img/bg_4.jpg);
+  height: 128px;
+  border-radius: 5px;
+  color: white;
+  padding-bottom: 0px;
+}
+.drinks h2
+{
+  text-align: center;
   padding-top: 5%;
-}
-.adress
-{
-
-}
-.time
-{
-
 }
