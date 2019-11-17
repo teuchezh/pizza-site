@@ -1,84 +1,130 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Пицца-Ёпта</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Пицца-Ёпта</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="fonts/Pacifico-Regular.ttf" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="fonts/Pacifico-Regular.ttf" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-    <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="35"></img></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="menu.html">Меню</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="about.html">О нас</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="35"></img></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Меню</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <script type="text/javascript" src="owlcarousel/owl.js"></script>
-    <div class="owl-carousel">
-            <div class="item"><img src="img/bg_1.png" alt=""></div>
-            <div class="item"><img src="img/bg_1.png" alt=""><div class="ctext"><p>Пицца "Маргарита"</p></div></div>
-            <div class="item"><img src="img/bg_2.png" alt=""><div class="ctext">Пицца "Пеперонни"</div></div>
-            <div class="item"><img src="img/bg_3.png" alt=""><div class="ctext">Пицца "Без названия"</div></div>
+  <script type="text/javascript" src="owlcarousel/owl.js"></script>
+  <div class="owl-carousel">
+    <div class="item">
+      <div class="item__img">
+        <img src="img/bg_1.png" alt="">
+      </div>
+      <div class="ctext">
+        <p>Пицца "Маргарита"</p>
+      </div>
     </div>
+    <div class="item">
+      <div class="item__img">
+        <img src="img/bg_1.png" alt="">
+      </div>
+      <div class="ctext">
+        <p>Пицца "Маргарита"</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item__img">
+        <img src="img/bg_2.png" alt="">
+      </div>
+      <div class="ctext">
+        <p>Пицца "Пеперонни"</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item__img">
+        <img src="img/bg_3.png" alt="">
+      </div>
+      <div class="ctext">
+        <p>Пицца "Без названия"</p>
+      </div>
+    </div>
+  </div>
 
-    <div class="info">
-        <h2>Ждем вас!</h2>
-      <div class="column">
-        <h2>+0(123)456-78-90</h2>
-        <p>Наш контактный телефон</p>
-      </div>
-      <div class="column">
-        <h2>228 Groove Street</h2>
-        <p>Krasnodar LA 101010</p>
-      </div>
-      <div class="column">
-        <h2>Открыто Пн-Сб</h2>
-        <p>10:00-23:00</p>
-      </div>
+  <div class="info">
+    <h2>Ждем вас!</h2>
+    <div class="column">
+      <h2>+0(123)456-78-90</h2>
+      <p>Наш контактный телефон</p>
     </div>
-    <div class="services">
-        <h2>Наши услуги</h2>
-        <div class="column"><h2>Здоровое питание</h2></div>
-        <div class="column"><h2>Быстрая доставка</h2></div>
-        <div class="column"><h2>Необычные рецепты</h2></div>
+    <div class="column">
+      <h2>228 Groove Street</h2>
+      <p>Krasnodar LA 101010</p>
     </div>
-    
-    <footer class="footer mt-auto py-3">
-        <div class="container"><img src="img/logo.png" alt="logo" height="25"><a class="up_button" href="#"><img src="img/arrow_up.png" width="64" height="64" alt="Вверх"></a>
-        </div>
-        <P>Copyright ©2019 All rights reserved</P>
-    </footer>    
+    <div class="column">
+      <h2>Открыто Пн-Сб</h2>
+      <p>10:00-23:00</p>
+    </div>
+  </div>
+  <div class="services">
+    <h2>Наши услуги</h2>
+    <div class="column">
+      <h2>Здоровое питание</h2>
+    </div>
+    <div class="column">
+      <h2>Быстрая доставка</h2>
+    </div>
+    <div class="column">
+      <h2>Необычные рецепты</h2>
+    </div>
+  </div>
+
+  <footer class="footer mt-auto py-3">
+    <div class="container"><img src="img/logo.png" alt="logo" height="25"><a class="up_button" href="#"><img
+          src="img/arrow_up.png" width="64" height="64" alt="Вверх"></a>
+    </div>
+    <P>Copyright ©2019 All rights reserved</P>
+  </footer>
 </body>
+
 </html>
