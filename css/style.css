@@ -1,13 +1,18 @@
 /*Home*/
 body
 {
-  font-family: 'Pacifico', 'Cursive';
+  font-family: 'Pacifico', 'Cursive' !important;
+  height: 100%;
 }
-footer
+.logo img
 {
-
+  margin-top: 5px;
+  margin-right: 50%;
 }
-
+#sticky-footer
+{
+  background-color: #F8F9FA;
+}
 @media screen and (max-width: 600px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
@@ -99,14 +104,6 @@ footer
   text-align: center;
   font-size: 12px;
 }
-
-.padval
-{
-  margin: 0 auto;
-  width: 100%;
-  max-width: auto;
-  padding: 0 15px;
-}
 .owl-carousel
 {
   background-image: url(../img/bg_1.jpg);
@@ -126,13 +123,13 @@ footer
   background-color: rgba(63, 63, 63, 0.315);
   color: white;
   text-align: right;
+  display: flex;
 }
 .ctext
 {
-  height: 720px;
   font-size: 25px;
   text-align: right;
-  padding-right: 35%;
+  margin: auto;
 }
 /*About*/
 
@@ -182,3 +179,15 @@ footer
   text-align: center;
   padding-top: 5%;
 }
+
+@media screen and (max-width: 600px) {
+  .item
+  {
+    flex-direction: column;
+  }
+  .item__img img
+  {
+    padding: 45px;
+  }
+}
+/*---------------------EXPERIMENTAL ZONE----------------------------*/
