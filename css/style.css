@@ -1,14 +1,19 @@
 /*Home*/
+html
+{
+  height: 100%;
+  position: relative;
+}
 body
 {
   font-family: 'Pacifico', 'Cursive' !important;
-  height: 100%;
 }
 .logo img
 {
   margin-top: 5px;
   margin-right: 50%;
 }
+
 #sticky-footer
 {
   background-color: #F8F9FA;
@@ -127,9 +132,10 @@ body
 }
 .ctext
 {
-  font-size: 25px;
+  font-size: 22px;
   text-align: right;
   margin: auto;
+  padding-right: 5%;
 }
 /*About*/
 
@@ -137,48 +143,10 @@ body
 .menubod
 {
   background-image: url(../img/bg_1.jpg);
+  background-repeat: no-repeat;
 }
-.ourmenuhead
-{
-  max-height: 320px;
-  height: 128px;
-  width: auto;
-  background-image: url(../img/food.png);
-  color: white;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.ourmenuhead h2
-{
-  padding-top: 3%;
-  text-align: center;
-}
-.ourmenuhead p
-{
-  text-align: center;
-}
-.card-deck
-{
-  padding-top: 5px;
-}
-.card-img-top
-{
-  max-height: 365px;
-  justify-items: stretch;
-}
-.drinks
-{
-  background-image: url(../img/bg_4.jpg);
-  height: 128px;
-  border-radius: 5px;
-  color: white;
-  padding-bottom: 0px;
-}
-.drinks h2
-{
-  text-align: center;
-  padding-top: 5%;
-}
+
+
 
 @media screen and (max-width: 600px) {
   .item
