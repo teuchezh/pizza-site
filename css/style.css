@@ -28,71 +28,54 @@ body
   margin-top: 5px;
   margin-right: 50%;
 }
-@media screen and (max-width: 600px) {
-  .column {
-      width: 100%;
-  }
-}
 .info
 {
-    width: 100%;
-    max-width: auto;
-    height: 256px;
-    background-image: url(../img/bg_4.jpg);
-    color: white;
+  width: 100%;
+  max-width: auto;
+  min-height: 256px;
+  max-height: 512px;
+  background-image: url(../img/bg_4.jpg);
+  color: white;
+  text-align: center;
 }
 .info h2
 {
   text-align: center;
   padding-top: 3%;
 }
-.info .column
+#services /*Услуги*/
 {
-  font-size: 18px;
-  text-align: center;
-}
-.info .column h2
-{
-  font-size: 22px;
-}
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 200px;
-}
-.info:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.services /*Услуги*/
-{
-  margin: 0 auto;
-  width: 100%;
-  max-width: auto;
-  height: 512px;
-  padding: 0px;
-  background-image: url(../img/food.png);
-}
-.services h2 /*Заголовок услуг*/
-{
-  text-align: center;
   padding-top: 3%;
-}
-.services .column h2/*Текст*/
-{
   text-align: center;
-  font-size: 18px;
+  background-image: url(../img/food.png);
+  width: auto;
+  min-height: 400px;
+  max-height: 1080px;
 }
-.services .column /*Текст*/
+#gallery
 {
-  text-align: center;
-  font-size: 12px;
+  /*padding-top: 3%;*/
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 512px;
+  max-height: 1080px;
+  background-image: url(../img/bg_4.jpg);
 }
-.services img
-{
-  margin-top: 10%;
+/*Галерея*/
+#gallery img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+@media (min-width: 420px) {
+  #gallery img {
+    max-width: 100%;
+  }
+}
+@media (min-width: 760px) {
+  #gallery img {
+    max-width: 100%;
+  }
 }
 .owl-carousel
 {
@@ -128,9 +111,13 @@ body
 {
   /*background-image: url(../img/bg_1.jpg);*/
   background-repeat: no-repeat;
+  background:#e2e2e2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background:#e2e2e2;
 }
-
-
 
 @media screen and (max-width: 600px) {
   .item
@@ -143,12 +130,3 @@ body
   }
 }
 /*---------------------EXPERIMENTAL ZONE----------------------------*/
-#dick
-{
-  padding-top: 3%;
-  text-align: center;
-  background-image: url(../img/food.png);
-  width: auto;
-  min-height: 512px;
-  max-height: 1080px;
-}
