@@ -1,22 +1,27 @@
 /*Home*/
 html
 {
-  height: 100%;
+  height: auto;
   position: relative;
+  padding-top: 61px;
 }
 body
 {
   font-family: 'Pacifico', 'Cursive' !important;
-  padding-top: 62px;
 }
 .logo img
 {
   margin-top: 5px;
   margin-right: 50%;
 }
+.navbar
+{
+  width: auto;
+}
 #sticky-footer
 {
   background-color: #F8F9FA;
+  font-family: 'Comfortaa', 'Cursive' !important;
 }
 .logo img
 {
@@ -30,11 +35,9 @@ body
 }
 .info
 {
-    margin: 0 auto;
     width: 100%;
     max-width: auto;
     height: 256px;
-    padding: 0px;
     background-image: url(../img/bg_4.jpg);
     color: white;
 }
@@ -45,12 +48,12 @@ body
 }
 .info .column
 {
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
 }
 .info .column h2
 {
-  font-size: 18px;
+  font-size: 22px;
 }
 .column {
   float: left;
@@ -87,6 +90,10 @@ body
   text-align: center;
   font-size: 12px;
 }
+.services img
+{
+  margin-top: 10%;
+}
 .owl-carousel
 {
   background-image: url(../img/bg_1.jpg);
@@ -119,7 +126,7 @@ body
 /*Menu*/
 .menubod
 {
-  background-image: url(../img/bg_1.jpg);
+  /*background-image: url(../img/bg_1.jpg);*/
   background-repeat: no-repeat;
 }
 
@@ -136,3 +143,12 @@ body
   }
 }
 /*---------------------EXPERIMENTAL ZONE----------------------------*/
+#dick
+{
+  padding-top: 3%;
+  text-align: center;
+  background-image: url(../img/food.png);
+  width: auto;
+  min-height: 512px;
+  max-height: 1080px;
+}
