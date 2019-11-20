@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop:true, //Зацикливаем слайдер
-        margin:10, //Отступ от картино если выводите больше 1
+        margin:0, //Отступ от картино если выводите больше 1
         nav:false, //Отключил навигацию
         autoplay:true, //Автозапуск слайдера
         smartSpeed:1000, //Время движения слайда

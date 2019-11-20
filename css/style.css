@@ -3,7 +3,7 @@ html
 {
   height: auto;
   position: relative;
-  padding-top: 61px;
+  /*padding-top: 61px;*/
 }
 body
 {
@@ -49,8 +49,12 @@ body
   text-align: center;
   background-image: url(../img/food.png);
   width: auto;
-  min-height: 400px;
-  max-height: 1080px;
+  /*min-height: 400px;
+  max-height: 1080px;*/
+}
+#seivices h2
+{
+
 }
 #gallery
 {
