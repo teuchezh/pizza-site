@@ -108,19 +108,16 @@ body
   margin: auto;
   padding-right: 5%;
 }
-/*About*/
+/*About
+.aboutbod
+{
+  font-family: 'Comfortaa', 'Cursive' !important;
+}*/
 
 /*Menu*/
 .menubod
 {
-  /*background-image: url(../img/bg_1.jpg);*/
-  background-repeat: no-repeat;
-  background:#e2e2e2;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  background:#e2e2e2;
+  background-image: url(../img/bg_4.jpg);
 }
 
 @media screen and (max-width: 600px) {
@@ -133,4 +130,33 @@ body
     padding: 45px;
   }
 }
+/*Blog*/
+.card-body
+{
+  background-image: url(../img/food.png);
+}
+.card-deck
+{
+  background-image: url(../img/bg_4.jpg);
+}
 /*---------------------EXPERIMENTAL ZONE----------------------------*/
+.fform
+{
+  width: auto;
+  padding: 5%;
+  background-image: url(../img/food.png);
+}
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+  .map
+  {
+    max-width: 410px;
+  }
+}
+@media (min-width: 1200px) 
+{
+  .map
+  {
+    min-width: 100%;
+  }
+}
